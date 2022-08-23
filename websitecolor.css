@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  background-color: #AFB4FF;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(#AFB4FF, rgb(236, 233, 233));
+}
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: white;
+  line-height: 2;
+}
+.first-block {
+  background: #AFB4FF;
+  text-align: center;
+  padding-top: 20px;
+}
+.intro {
+  width: 50%;
+  margin: 0 auto;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+.second-block {
+  line-height: 2;
+}
+.bottom-cloud {
+  position:absolute;
+  left:260px;
+}
+.top-cloud {
+  position:relative;
+  left: 300px;
+  top: 30px;
+}
+.profile-pic {
+  width: 300px;
+  height: 300px;
+}
+.skill-image {
+  width:25%;
+  float:left;
+  margin-right: 30px;
+  clear:both;
+}
+h2  {
+  font-size: 2.5rem;
+  font-family: 'Sacramento', cursive;
+  color: white;
+  font-size: 4rem;
+}
+#line {
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+}
+.skill-row {
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-image2 {
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: grey;
+  width: 5%;
+  margin: 50px auto;
+}
+.bottom-block {
+  margin: 20px auto 0;
+  background-color: #AFB4FF;
+  padding: 20px;
+}
+.bottom-block p {
+  color: white;
+  padding:10px;
+}
+.footer {
+  padding: 20px;
+}
+.contact-me h3  {
+  padding: 20px;
+}
+.contact-me p {
+  padding-bottom: 20px;
+}
+a {
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: blue;
+}
+a:hover {
+  color: white;
+}
+.btn {
+  border-bottom: 10px;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  background: #0e99f5;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #4debcb;
+  background-image: -webkit-linear-gradient(top, #4debcb, #9cf7ce);
+  background-image: -moz-linear-gradient(top, #4debcb, #9cf7ce);
+  background-image: -ms-linear-gradient(top, #4debcb, #9cf7ce);
+  background-image: -o-linear-gradient(top, #4debcb, #9cf7ce);
+  background-image: linear-gradient(to bottom, #4debcb, #9cf7ce);
+  text-decoration: none;  
+}
+.copyright {
+  font-size: 0.725rem;
+  padding: 20px auto;
+}
+.logo-1{
+  width: 20px;
+  height: 20px;
+  position:absolute;
+  left: 520px;
+}
+.logo-2 {
+  width: 20px;
+  height: 20px;
+  position:relative;
+  left: 20px;
+}
